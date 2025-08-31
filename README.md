@@ -1,5 +1,7 @@
 # front_end
-in this repo wewill learn about front end
+in this repo we will learn about front end
+### we will learn about html, css and JS
+
 | number | title | link |
 | - | - | - |
 | 1 | intro |[link](/classes/class1.md)|
