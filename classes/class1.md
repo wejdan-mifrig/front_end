@@ -16,7 +16,7 @@ a. we created a table by using | vertical bar
 
 | - | - | - |
 b. we use [link](./file name ) to link the files .
-c. we use [back](../) to link parent folders 
+c. we use [back](../ to link parent folders 
 
 4. we learn the basic structure of HTML
 <> this for type the tag in side it like:
