@@ -21,12 +21,12 @@ c. we use [back](../ to link parent folders
 4. we learn the basic structure of HTML
 <> this for type the tag in side it like:
 
-!DOCTYPE html
-html 
-head
-body
-h1 h2 h3 h4 h5 h6
-p paragraph
-there is open tag <>
-there is close tage </> 
+1(!DOCTYPE html)
+2(html) 
+3(head)
+4(body)
+5(h1 h2 h3 h4 h5 h6)
+6(p paragraph)
+7(there is open tag <>)
+8(there is close tage </> )
   
