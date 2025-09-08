@@ -1,0 +1,20 @@
+body{background-color: darkgreen;}
+p{color: blueviolet;
+    background-color: darkkhaki;
+    padding: 20px 30px 40px 50px;
+    border: 20px solid black;
+    margin: 20px 30px 40px 50px ;
+    text-align: center;
+
+        }
+
+        h1{background-color: brown;
+           text-align:center;
+          border-block-color: rgb(22, 14, 246);
+        }
+
+        #anta{color: chocolate;
+        display: block;  
+        }
+
+        .jadeed{background-color: darkseagreen;}
