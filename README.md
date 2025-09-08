@@ -6,3 +6,4 @@ in this repo we will learn about front end
 | - | - | - |
 | 1 | class1|[link](/classes/class1.md)|
 | 2 | calss2|[link](/classes/class2.md)|
+| 3 | class3|[link](/classes/class3.md)
