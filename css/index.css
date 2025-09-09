@@ -1,20 +1,50 @@
-body{background-color: darkgreen;}
+body{background-color: rgb(75, 5, 105);
+    }
+
 p{color: blueviolet;
-    background-color: darkkhaki;
-    padding: 20px 30px 40px 50px;
-    border: 20px solid black;
-    margin: 20px 30px 40px 50px ;
-    text-align: center;
+  background-color: rgb(208, 141, 212);
+  padding: 20px 20px 20px 20px;
+  border: 20px solid rgb(237, 209, 233);
+  margin: 20px 20px 20px 20px ;
+  text-align: center;
+  }
 
-        }
+h1{color: rgb(231, 167, 244);
+  background-color: rgb(144, 16, 127);
+  text-align:center;
+  border-block-color: rgb(137, 59, 130);
+  }
 
-        h1{background-color: brown;
-           text-align:center;
-          border-block-color: rgb(22, 14, 246);
-        }
+.cour1{color: rgb(218, 188, 211);
+      text-align:center;
+      display: block;  
+      }
 
-        #anta{color: chocolate;
-        display: block;  
-        }
+img{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
-        .jadeed{background-color: darkseagreen;}
+#cour2{color: rgb(210, 203, 216);
+      }
+
+label{color: rgb(201, 102, 208);
+      }
+
+option{color: rgb(183, 76, 174);
+      } 
+      
+table{color:rgb(193, 121, 206);
+      
+     }
+
+a{color: azure;
+
+}
+.cour3{color: rgb(219, 186, 214);
+      }
+
+button{color: rgb(223, 124, 234);
+
+}
+      
