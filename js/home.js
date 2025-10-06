@@ -54,8 +54,21 @@ alert("hellow()")
 function jdBgColorChange(){
 var jsPart = document.getElementById('jsPArt')
 console.log(' this part is js part',jsPart)
-jsPart.style.backgroundColor="blue"
+if(jsPart.style.backgroundColor=="blue"){
+   jsPart.style.backgroundColor="red" 
 }
+else{
+    jsPart.style.backgroundColor="blue"
+}
+}
+
+var switchButton=document.getElementsByClassName('switch')[0]
+switchButton.addEventListener('click',function(){
+var checkbox=document.getElementById('checkbox')
+console.log(checkbox.checked)
+
+})
+
 
 function clculate(){
 var num1 = document.getElementById('num1').value
