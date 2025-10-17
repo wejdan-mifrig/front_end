@@ -66,7 +66,6 @@ var switchButton=document.getElementsByClassName('switch')[0]
 switchButton.addEventListener('click',function(){
 var checkbox=document.getElementById('checkbox')
 console.log(checkbox.checked)
-
 })
 
 
@@ -123,3 +122,23 @@ result=" prim num"
 }
 document.getElementById('reas').innerHTML=result;
 }
+
+
+
+
+function gen5Elements(){
+var elemntDiv=document.getElementById('gen5Elements')
+var ul= document.createElement('ul')
+for(let index=0;index<5;index++){
+var li=document.createElement('li')
+var a=document.createElement('a')
+a.innerHTML="element " + (index+1)
+li.appendChild(a)
+li.appendChild(li)
+
+}
+elemntDiv.appendChild(ul)
+
+
+}
+
