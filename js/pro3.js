@@ -10,6 +10,15 @@ var div = document.createElement('div')
 div.className="card"
 var h2 = document.createElement('h2')
 h2.innerHTML="this is card"+index
+editbutton.setAttribute('data-toggle','modal')
+editbutton.setAttribute('data-target','#editModal')
+editbutton.onclick=function(){
+var editTitle =document.getElementById('editTitle')
+editTitle.value="this is card"+index
+let editeIndex=document.getElementById('editeIndex')
+editeIndex.value=index
+
+
 var removecard= document.createElement('button')
 removecard.innerHTML="x"
 removecard.onclick= function reemoov(){
@@ -17,15 +26,24 @@ div.remove()
 
 }
 }
-var modal1=document.getElementById('BTN1') 
-modal1.onclick= function edite1(){
-var modal2=new bootsrap.Modal(document.getElementById('exampleModal'));
-modal2.show();
+
 }
 
-div.appendChild(modal1)
 div.appendChild(removecard)
 div.appendChild(h2)
 main.appendChild(div)
-}
 
+}
+ var editForm = document.getElementById('editeForm')
+editForm.addEventListener('submit',function(event)
+{
+    event.preventDefault()
+var editTitle=document.getElementById('editTitle').nodeValue
+// var cardTitle=document.querySelector('.card-title')
+// cardTitle.innerHTML=editTitle
+var cardTitle = document.getElementsByClassName('card-Title')
+let editIndex = parseInt(document.getElementById(editIndex))
+cardTitle[editIndex-1].innerHTML=editTitle
+
+
+})
